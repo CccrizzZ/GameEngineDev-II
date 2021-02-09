@@ -1,38 +1,40 @@
 #include "Entity.h"
 
 
-Entity::Entity()
-{
-}
+// Entity::Entity()
+// {
 
-Entity::~Entity()
-{
-}
+    
+// }
 
-void Entity::SetScale()
-{
+// Entity::~Entity()
+// {
+// }
 
-}
+// void Entity::SetScale()
+// {
 
-void Entity::SetVelocity()
-{
+// }
 
-}
+// void Entity::SetPosition()
+// {
 
-void Entity::SetPosition()
-{
+// }
 
-}
+// void Entity::SetRotation()
+// {
 
-void Entity::SetRotation()
-{
+// }
 
-}
+// void Entity::SetVelocity()
+// {
 
-void Entity::SetAcceleration()
-{
+// }
 
-}
+// void Entity::SetAcceleration()
+// {
+
+// }
 
 // XMFLOAT3 Entity::EGetScale()
 // {

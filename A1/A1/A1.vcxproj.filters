@@ -45,6 +45,9 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Common\FrameResource.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Common\Camera.h">
@@ -77,33 +80,8 @@
     <ClInclude Include="Entity.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Shaders\color.cso">
-      <Filter>Shader</Filter>
-    </None>
-    <None Include="Shaders\PS.asm">
-      <Filter>Shader</Filter>
-    </None>
-    <None Include="Shaders\PS.cso">
-      <Filter>Shader</Filter>
-    </None>
-    <None Include="Shaders\VS.asm">
-      <Filter>Shader</Filter>
-    </None>
-    <None Include="Shaders\VS.cso">
-      <Filter>Shader</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <FxCompile Include="Shaders\color.hlsl">
-      <Filter>Shader</Filter>
-    </FxCompile>
-    <FxCompile Include="Shaders\PS.hlsl">
-      <Filter>Shader</Filter>
-    </FxCompile>
-    <FxCompile Include="Shaders\VS.hlsl">
-      <Filter>Shader</Filter>
-    </FxCompile>
+    <ClInclude Include="..\..\Common\FrameResource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
