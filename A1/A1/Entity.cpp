@@ -1,62 +1,41 @@
 #include "Entity.h"
 
-
-// Entity::Entity()
-// {
-
-    
-// }
-
-// Entity::~Entity()
+// Entity::Entity(A1* gRef)
 // {
 // }
 
-// void Entity::SetScale()
-// {
+Entity::Entity()
+{   
+}
 
-// }
+Entity::~Entity()
+{
+}
 
-// void Entity::SetPosition()
-// {
 
-// }
 
-// void Entity::SetRotation()
-// {
 
-// }
 
-// void Entity::SetVelocity()
-// {
+XMFLOAT2 Entity::getVelocity()
+{
+    return XMFLOAT2();
+}
 
-// }
+void Entity::setVelocity(float x, float y)
+{
+    Velocity.x = x;
+    Velocity.y = y;
 
-// void Entity::SetAcceleration()
-// {
+}
 
-// }
+// apply velocity to entity
+void Entity::updateVelocity(const GameTimer& gt)
+{
+    MoveTo(
+        Velocity.x * gt.DeltaTime(),
+        Velocity.y * gt.DeltaTime(),
+        0
+    );
 
-// XMFLOAT3 Entity::EGetScale()
-// {
+}
 
-// }
-
-// XMFLOAT3 Entity::EGetVelocity()
-// {
-
-// }
-
-// XMFLOAT3 Entity::EGetPosition()
-// {
-
-// }
-
-// XMFLOAT3 Entity::EGetRotation()
-// {
-
-// }
-
-// XMFLOAT3 Entity::EGetAcceleration()
-// {
-
-// }
